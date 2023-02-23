@@ -1,3 +1,6 @@
+# Design an algorithm to find the sum of the first n terms of the series 
+# Fs = 0! + 1! + 2! + 3!+ ......+ n!       [(n>=0)]
+
 def factorial():
     n = int(input("Enter a number : "))
     fseries = 1
