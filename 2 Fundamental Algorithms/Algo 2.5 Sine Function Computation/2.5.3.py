@@ -1,3 +1,5 @@
+# Cosine function algorithm
+
 x = float(input("Enter x :"))
 n = int(input("Enter no. of terms : "))
 
