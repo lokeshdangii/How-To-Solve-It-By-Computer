@@ -12,7 +12,7 @@ def arrorder(arr):
     # print("Reverse Array : ",arr)
     return arr
 
-arr = [8,8,2,7,0,3,7,4,4,2]
+arr = [8,8,2,7,0,3,7,4,4,2]  
 array = arrorder(arr)
 print("Reverse Array : ",array)
 
