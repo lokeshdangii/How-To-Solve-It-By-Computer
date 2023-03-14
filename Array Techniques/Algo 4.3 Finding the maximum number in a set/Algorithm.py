@@ -1,5 +1,6 @@
 def maxnum(arr):
     max = arr[0]
+    cou = 1
     n = 1
     while n<len(arr):
         if arr[n]>max:
