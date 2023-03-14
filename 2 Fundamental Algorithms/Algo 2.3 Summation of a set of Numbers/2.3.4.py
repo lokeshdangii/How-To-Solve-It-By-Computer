@@ -9,7 +9,7 @@ print("the list of numbers : ", numlist)
 
 sum = 0
 for i in numlist:
-    sum = sum + (1/i)
+    sum = sum + (1/numlist[i])
 
 print("The sum of numbers is: ",sum)
 harmonicmean = n/sum
