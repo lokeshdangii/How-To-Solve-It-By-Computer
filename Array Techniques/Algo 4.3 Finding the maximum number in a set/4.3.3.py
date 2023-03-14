@@ -19,9 +19,6 @@ def maxnum(arr):
     print("Last Occurence : ",last_occurence)
     
 
-
-
-
 arr1= [12,12,232,13,11,64,232,85,34,56,12,33,1,6,9,232,23]
 maxnum(arr1)
 # print("The maximum number in a set is : ",maxnumber)
