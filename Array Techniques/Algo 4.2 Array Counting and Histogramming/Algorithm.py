@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 
 n = [60,50,70,90,80,90,90,80,80,70,60,40]
 arr = [0]*101
-marks = []
+
 # print(arr)
 
 for i in n:
@@ -14,7 +14,6 @@ for k in range(0,101):
     if  arr[k]== 0:
         pass
     else:
-        marks.append(arr[k])
         print("Mark count of student for mark {} is {}".format(k,arr[k]) )
     
 # print("Marks Count = ",arr)
