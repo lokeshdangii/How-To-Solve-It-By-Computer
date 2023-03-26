@@ -8,5 +8,4 @@ while i<len(arr1):
     
     i = i+1
 
-
 print("Array is :",list_arr)
