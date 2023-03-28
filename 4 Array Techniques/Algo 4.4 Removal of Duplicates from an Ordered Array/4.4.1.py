@@ -1,16 +1,16 @@
 # Remove from an ordered list all numbers that occurs more than once.
+def remove_duplicate(arr):
+    new_arr = []
 
-arr1 = [2,3,4,5,2,4,2,2,2,2,2,4,4,4,4,4,4]
-print(len(arr1))
-for i in range(0,len(arr1)):
-    for j in range(i+1,len(arr1)-1):
-        if arr1[i] == arr1[j]:
-            arr1.remove(arr1[j])
-        if i==5:
-            break
+    for i in range(1,len(arr1)):
+        if arr1[i-1]!=arr1[i]:
+            new_arr.append(arr1[i])
         
-print("Array after duplicay removal will be : ",arr1)
+    return new_arr
 
+arr1 = [1, 2, 2, 3, 4, 4, 4, 5, 5, 5, 5,6,7,8,8,10,14,16,18,18,19,20,20]
+result = remove_duplicate(arr1)
+print("The array after duplicate removal :",result)
 
 
 

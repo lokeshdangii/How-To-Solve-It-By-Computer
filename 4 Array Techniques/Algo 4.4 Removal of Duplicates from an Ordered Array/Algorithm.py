@@ -7,9 +7,11 @@ for i in range(1,len(arr1)):
         arr1[j] =arr1[i-1]
         j+=1
 
-# print(arr1)
+print(arr1)
 for i in range(0,j):
     print(arr1[i],end=" ")
+
+
 
 
 # this logic is not good for the unsorted array....!
