@@ -1,28 +1,26 @@
 # The problem of Dutch National Flag
 # The problem is also sometimes called the 3-way partitioning problem or the flag of the United States problem.
 
-def dnf_partition(a):
+def dnf_partition(arr):
     low = 0
-    i = 0
-    j = len(a)-1
+    mid = 0
+    high = len(arr)-1
 
-    
-    while i<j:
-       
-        if a[i]==0:
-           a[low],a[i]= a[i],a[low]
-           low = low+1
-           i = i+1
-        elif a[i] ==1:
-            i = i+1
-        else:
-            a[i],a[j] = a[i],a[j]
-            j = j-1
+    while mid<=high:
+        if arr[mid] == 0:
+            arr[mid],arr[low] = arr[low],arr[mid]
+            mid = mid + 1
+            low = low + 1
+        elif arr[mid] ==1:
+            mid = mid +1
+        else :
+            arr[mid], arr[high] = arr[high],arr[mid]
+            high=high-1
 
-    return a
+    return arr
 
 
-arr = [0,1,2,0,1,2]
-x = 1
-result = dnf_partition(arr)
+
+a = [0,1,2,0,1,2]
+result = dnf_partition(a)
 print("Result = ",result)
