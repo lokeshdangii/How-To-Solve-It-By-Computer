@@ -6,5 +6,5 @@ for key, value in Dict.items():
             ele = [key] * value 
             print("Element :- ",ele)
             new_arr += ele
-            
+            # print("array in loop ;-",new_arr)
         
