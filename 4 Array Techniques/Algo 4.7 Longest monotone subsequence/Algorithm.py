@@ -1,3 +1,4 @@
+# longest monotone subsequence Algo
 a = [1,2,9,4,7,3,11,8,14,6]
 length = [0]*100
 length[0] = 1
