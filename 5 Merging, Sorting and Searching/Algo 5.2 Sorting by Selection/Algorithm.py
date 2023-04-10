@@ -1,5 +1,4 @@
 def selectionSort(arr):
-    minPos = 0
 
     for i in range(0,len(arr)-1):
         min = i
