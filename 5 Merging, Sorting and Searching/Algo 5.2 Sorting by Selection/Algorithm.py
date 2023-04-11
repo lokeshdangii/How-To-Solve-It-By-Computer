@@ -8,10 +8,13 @@ def selectionSort(arr):
         
 
         arr[min],arr[i] = arr[i],arr[min]
+        count = count+1
+    
+    return arr
     
 
-    return arr
 
-
-arr = [5,4,1,2,3]
+# arr = [5,4,1,2,3]
+arr = [30,12,18,8,14,41,3,39]
+# arr = [1,4,12,6,10,8,9]
 print(selectionSort(arr))
