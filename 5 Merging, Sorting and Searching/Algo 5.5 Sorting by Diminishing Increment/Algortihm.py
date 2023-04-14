@@ -1,16 +1,17 @@
 arr = [20,35,18,8,14,41,3,39]
 n = len(arr)
-gap = n
-j= n
+gap = n//2
+
 while gap>=1:
-    gap = gap//2
+    
     for j in range(gap,n,1):
-        for i in range(j-gap,gap+2,1): 
+        for i in range(0,j,1): 
             no = i
-            if arr[i+gap]>arr[i]:
-                break
+            if arr[i]>arr[j]:
+                arr[i],arr[j] = arr[j],arr[i]
             else:
-                arr[i+gap],arr[i] = arr[i],arr[i+gap]
+                break
+    gap = gap//2
     
 
 print(arr)
