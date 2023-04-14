@@ -22,6 +22,8 @@ def shellSort(a):
     #         a[i],a[i+1] = a[i+1],a[i]
     # print("array after one more swap : ",a)
 
-
+a = [20,35,18,8,14,41,3,39]
+# a = [15,19,20,38,24,41,30,31,12]
+arr = [14,18,19,37,23,40,29,30,11]
 list = [12,34,78,54,2,3]
 shellSort(list)
