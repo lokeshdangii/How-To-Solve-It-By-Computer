@@ -4,12 +4,13 @@ def binarySearch(arr):
     x = 44
     lower = arr[0]
     upper = arr[n-1]
+    middle = int()
 
-    while lower > upper :
+    while arr[middle] == x or lower > upper :
         middle = (lower+upper)//2
-        if arr[middle] == x:
-            return middle
-        elif x>arr[middle]:
+        # if arr[middle] == x:
+        #     return middle
+        if x>arr[middle]:
             lower = middle+1
         else:
             upper = middle-1
