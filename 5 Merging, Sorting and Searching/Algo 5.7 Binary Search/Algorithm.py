@@ -1,19 +1,12 @@
 
 def binarySearch(arr,ele):
     n = len(arr)
-    lower = arr[0]
-    upper = arr[n-1]
+    lower = 0
+    upper = n-1
     
 
     while lower < upper :
         middle = (lower+upper)//2
-        
-        # if arr[middle] == ele:
-        #     return middle
-        # elif ele>arr[middle]:
-        #     lower = middle+1
-        # else:
-        #     upper = middle-1
 
         if ele > arr[middle]:
             lower = middle +1 
