@@ -16,8 +16,7 @@ Welcome to the repository containing algorithm solutions from the book "How to S
 
 - Title: How to Solve it by Computer
 - Author: R.G. Dromey
-- [Link to the Book](link-to-the-book)
-
+- [Link to the Book](https://www.edutechlearners.com/download/books/How%20To%20Solve%20It%20By%20Computer.pdf)
 ## Chapters and Algorithms
 
 ### 1. Introduction to Computer Problem Solving
