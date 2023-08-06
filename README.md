@@ -1,6 +1,6 @@
 # How to Solve it by Computer - Algorithms from the Book by R.G. Dromey
 
-![Book Cover](link-to-your-book-cover-image.png) 
+![Book Cover](https://m.media-amazon.com/images/I/71sdHVfUZWL._AC_UF1000,1000_QL80_.jpg) 
 
 Welcome to the repository containing algorithm solutions from the book "How to Solve it by Computer" by R.G. Dromey. This repository showcases various fundamental algorithms and problem-solving techniques explained in the book, along with their implementations in pseudocode and/or Pascal notation.
 
@@ -22,63 +22,62 @@ Welcome to the repository containing algorithm solutions from the book "How to S
 
 ### 1. Introduction to Computer Problem Solving
 
-The first chapter introduces the core aspects of computer problem solving and algorithm design.
+The first chapter introduces the core aspects of computer problem-solving and algorithm design.
 
 ### 2. Fundamental Algorithms
 
 This chapter introduces fundamental algorithms, including:
 
-- Exchanging the Values of Two Variables
-- Counting
-- Summation of a Set of Numbers
-- Factorial Computation
-- Sine Function Computation
-- Generation of the Fibonacci Sequence
-- Reversing the Digits of an Integer
-- Base Conversion
-- Character to Number Conversion
+    1. Algorithm 2.1 Exchanging the Values of Two Variables
+    2. Algorithm 2.2 Counting
+    3. Algorithm 2.3 Summation of a Set of Numbers
+    4. Algorithm 2.4 Factorial Computation
+    5. Algorithm 2.5 Sine Function Computation
+    6. Algorithm 2.6 Generation of the Fibonacci Sequence
+    7. Algorithm 2.7 Reversing the Digits of an Integer
+    8. Algorithm 2.8 Base Conversion
 
 ### 3. Factoring Methods
 
 In this chapter, you'll find algorithms for:
 
-- Finding the Square Root of a Number
-- The Smallest Divisor of an Integer
-- The Greatest Common Divisor of Two Integers
-- Generating Prime Numbers
-- Computing the Prime Factors of an Integer
-- Generation of Pseudo-random Numbers
-- Raising a Number to a Large Power
-- Computing the nth Fibonacci Number
+    1. Algorithm 3.1 Finding the Square Root of a Number
+    2. Algorithm 3.2 The Smallest Divisor of an Integer
+    3. Algorithm 3.3 The Greatest Common Divisor of Two Integers
+    4. Algorithm 3.4 Generating Prime Numbers
+    5. Algorithm 3.5 Computing the Prime Factors of an Integer
+    6. Algorithm 3.6 Generation of Pseudo-random Numbers 
+    7. Algorithm 3.7 Raising a Number to a Large Power
+    8. Algorithm 3.8 Computing the nth Fibonacci Number
 
 ### 4. Array Techniques
 
 Explore these array manipulation algorithms:
 
-- Array Order Reversal
-- Array Counting or Histogramming
-- Finding the Maximum Number in a Set
-- Removal of Duplicates from an Ordered Array
-- Partitioning an Array
-- Finding the kth Smallest Element
-- Longest Monotone Subsequence
+    1. Algorithm 4.1 Array Order Reversal
+    2. Algorithm 4.2 Array Counting or Histogramming
+    3. Algorithm 4.3 Finding the Maximum Number in a Set
+    4. Algorithm 4.4 Removal of Duplicates from an Ordered Array
+    5. Algorithm 4.5  Partitioning an Array
+    6. Algorithm 4.6  Finding the kth Smalles Element
+    7. Algorithm 4.7 Longest Monotone Subsequence
 
-### 5. Merging, Sorting and Searching
+### 5. Merging, Sorting, and Searching
 
 This chapter covers sorting and searching algorithms:
 
-- The Two-way Merge
-- Sorting by Selection
-- Sorting by Exchange
-- Sorting by Insertion
-- Sorting by Diminishing Increment
-- Sorting by Partitioning
-- Binary Search
-- Hash Searching
+    1. Algorithm 5.1 The Two-way Merge
+    2. Algorithm 5.2 Sorting by Selection
+    3. Algorithm 5.3 Sorting by Exchange
+    4. Algorithm 5.4 Sorting by Insertion
+    5. Algorithm 5.5 Sorting by Diminishing Increment
+    6. Algorithm 5.6 Sorting by Partitioning
+    7. Algorithm 5.7 Binary Search
+    8. Algorithm 5.8 Hash Searching
 
 ## Usage
 
-Feel free to explore the provided algorithm implementations. You can use them as references, study materials, or integrate them into your projects. Contributions and improvements to the existing code are welcome!
+Feel free to explore the provided algorithm implementations. You can use them as references, or study materials, or integrate them into your Solutions. Contributions and improvements to the existing code are welcome!
 
 ## Getting Started
 
