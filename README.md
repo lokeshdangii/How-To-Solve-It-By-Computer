@@ -1,80 +1,88 @@
-# R.G.Dromey
-This repository contains algorithms and solutions of the book "How to Solve it by Computer"  by RG Dromey. 
+# How to Solve it by Computer - Algorithms from the Book by R.G. Dromey
 
-# How to Solve it by Computer by R.G.Dromey
+![Book Cover](link-to-your-book-cover-image.png) 
+
+Welcome to the repository containing algorithm solutions from the book "How to Solve it by Computer" by R.G. Dromey. This repository showcases various fundamental algorithms and problem-solving techniques explained in the book, along with their implementations in pseudocode and/or Pascal notation.
 
 ## Introduction
 
+"How to Solve it by Computer" is a computer science book that delves into the art of algorithm design and problem-solving. This repository serves as a practical companion, providing code implementations and explanations for selected algorithms from the book. It covers:
 
-How to Solve it by Computer is a computer science book by R. G. Dromey
+1. The design considerations and factors associated with algorithmic problem-solving.
+2. The creative process behind devising innovative solutions for algorithms and data structures.
+3. The reasoning behind constraints, factors, and design choices.
 
-It is an introduction to the whys of algorithms and data structures. Features of the book:
+## Book Information
 
-    1. The design factors associated with problems
-    2. The creative process behind coming up with innovative solutions for algorithms and data structures
-    3. The line of reasoning behind the constraints, factors, and design choices made.
-The very fundamental algorithms portrayed by this book are mostly presented in pseudocode and/or Pascal notation.
-In this book, the Chapters are ordered in increasing order of conceptual difficulty as usually experienced by students.
+- Title: How to Solve it by Computer
+- Author: R.G. Dromey
+- [Link to the Book](link-to-the-book)
 
-You can get the book from this
-[Link](https://www.edutechlearners.com/download/books/How%20To%20Solve%20It%20By%20Computer.pdf).
-# Chapters in Book
+## Chapters and Algorithms
 
-## 1. Introduction to Computer Problem Solving
+### 1. Introduction to Computer Problem Solving
 
-##### The first chapter introduces the core aspects of computer problem-solving and algorithm design. In the first chapter, no algorithms are discussed.
+The first chapter introduces the core aspects of computer problem solving and algorithm design.
 
-## 2. Fundamental Algorithms.
+### 2. Fundamental Algorithms
 
-#### The second chapter contains the following algorithms:-
+This chapter introduces fundamental algorithms, including:
 
-    1. Algorithm 2.1 Exchanging the Values of Two Variables
-    2. Algorithm 2.2 Counting
-    3. Algorithm 2.3 Summation of a Set of Numbers
-    4. Algorithm 2.4 Factorial Computation
-    5. Algorithm 2.5 Sine Function Computation
-    6. Algorithm 2.6 Generation of the Fibonacci Sequence
-    7. Algorithm 2.7 Reversing the Digits of an Integer
-    8. Algorithm 2.8 Base Conversion
-    9. Algorithm 2.9 Character to Number Conversion
+- Exchanging the Values of Two Variables
+- Counting
+- Summation of a Set of Numbers
+- Factorial Computation
+- Sine Function Computation
+- Generation of the Fibonacci Sequence
+- Reversing the Digits of an Integer
+- Base Conversion
+- Character to Number Conversion
 
+### 3. Factoring Methods
 
-## 3. Factoring Methods
+In this chapter, you'll find algorithms for:
 
-#### The third chapter contains the following algorithms:-
+- Finding the Square Root of a Number
+- The Smallest Divisor of an Integer
+- The Greatest Common Divisor of Two Integers
+- Generating Prime Numbers
+- Computing the Prime Factors of an Integer
+- Generation of Pseudo-random Numbers
+- Raising a Number to a Large Power
+- Computing the nth Fibonacci Number
 
-    1. Algorithm 3.1 Finding the Square Root of a Number
-    2. Algorithm 3.2 The Smallest Divisor of an Integer
-    3. Algorithm 3.3 The Greatest Common Divisor of Two Integers
-    4. Algorithm 3.4 Generating Prime Numbers
-    5. Algorithm 3.5 Computing the Prime Factors of an Integer
-    6. Algorithm 3.6 Generation of Pseudo-random Numbers 
-    7. Algorithm 3.7 Raising a Number to a Large Power
-    8. Algorithm 3.8 Computing the nth Fibonacci Number
-    
+### 4. Array Techniques
 
-## 4. Array Techniques
+Explore these array manipulation algorithms:
 
-#### The fourth chapter contains the following algorithms:-
+- Array Order Reversal
+- Array Counting or Histogramming
+- Finding the Maximum Number in a Set
+- Removal of Duplicates from an Ordered Array
+- Partitioning an Array
+- Finding the kth Smallest Element
+- Longest Monotone Subsequence
 
-    1. Algorithm 4.1 Array Order Reversal
-    2. Algorithm 4.2 Array Counting or Histogramming
-    3. Algorithm 4.3 Finding the Maximum Number in a Set
-    4. Algorithm 4.4 Removal of Duplicates from an Ordered Array
-    5. Algorithm 4.5  Partitioning an Array
-    6. Algorithm 4.6  Finding the kth Smalles Element
-    7. Algorithm 4.7 Longest Monotone Subsequence
-  
-## 5. Merging, Sorting, and Searching
+### 5. Merging, Sorting and Searching
 
+This chapter covers sorting and searching algorithms:
 
-#### The fourth chapter contains the following algorithms:-
+- The Two-way Merge
+- Sorting by Selection
+- Sorting by Exchange
+- Sorting by Insertion
+- Sorting by Diminishing Increment
+- Sorting by Partitioning
+- Binary Search
+- Hash Searching
 
-    1. Algorithm 5.1 The Two-way Merge
-    2. Algorithm 5.2 Sorting by Selection
-    3. Algorithm 5.3 Sorting by Exchange
-    4. Algorithm 5.4 Sorting by Insertion
-    5. Algorithm 5.5 Sorting by Diminishing Increment
-    6. Algorithm 5.6 Sorting by Partitioning
-    7. Algorithm 5.7 Binary Search
-    8. Algorithm 5.8 Hash Searching
+## Usage
+
+Feel free to explore the provided algorithm implementations. You can use them as references, study materials, or integrate them into your projects. Contributions and improvements to the existing code are welcome!
+
+## Getting Started
+
+To get started, simply clone the repository to your local machine:
+
+```bash
+git clone https://github.com/lokeshdangii/R.G.Dromey
