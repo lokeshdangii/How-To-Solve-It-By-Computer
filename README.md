@@ -83,4 +83,4 @@ Feel free to explore the provided algorithm implementations. You can use them as
 To get started, simply clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/lokeshdangii/R.G.Dromey
+https://github.com/lokeshdangii/how-to-solve-it-by-computer.git
